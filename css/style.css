@@ -1,6 +1,18 @@
+/* All CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
+
+/* All CSS Reset */
+
+/* Banner_Part Start */
+#banner_part {
+    height: 800px;
+    width: 100%;
+    background: #F2F6F7;
+
+}
+/* Banner_Part End */
