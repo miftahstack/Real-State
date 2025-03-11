@@ -10,16 +10,45 @@
 
 
 /* NavBar_Part Start */
-.navbar-nav .nav-item {
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+
+/* Sticky Header */
+
+
+.sticky_navbar{
+    background: #ed0000;
+    z-index: 999;
+    animation: AR 1s;
+    }
+    @keyframes AR{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
+    
+/* Sticky Header */
+
+.navbar-nav i{
     margin-left: 20px;
 }
+
 /* NavBar_Part End */
 
 
 
 /* Banner_Part Start */
 #banner_part {
-    padding: 200px 0px;
+    padding: 1000px 0px;
     width: 100%;
     background: #F2F6F7;
     position: relative;
@@ -28,35 +57,40 @@
 }
 
 .banner_shape {
-position: absolute;
-z-index: -1;
+    position: absolute;
+    z-index: -1;
 }
-.banner_text h1{
-font-size: 60px;
-font-family: "Poppins", sans-serif;
-font-weight: 600;
+
+.banner_text h1 {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
 }
-.banner_text #para{
-font-size: 16px;
-font-family: "Nunito", sans-serif;
-font-weight: 400;
-display: inline-block;
-margin-top: 10px;
+
+.banner_text #para {
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px;
 }
-.banner_text p{
-font-size: 16px;
-font-family: "Nunito", sans-serif;
-font-weight: 400;
-margin-top: 10px;
+
+.banner_text p {
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
 }
-.banner_text .btn{
+
+.banner_text .btn {
     background: #FF5A3C;
     color: #fff;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     cursor: pointer;
 }
-.banner_right i{
+
+.banner_right i {
     margin-left: 90%;
     margin-top: 18%;
     font-size: 25px;
