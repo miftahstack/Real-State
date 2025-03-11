@@ -8,11 +8,61 @@
 
 /* All CSS Reset */
 
+
+/* NavBar_Part Start */
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+/* NavBar_Part End */
+
+
+
 /* Banner_Part Start */
 #banner_part {
     padding: 200px 0px;
     width: 100%;
     background: #F2F6F7;
+    position: relative;
+    z-index: 1;
 
 }
+
+.banner_shape {
+position: absolute;
+z-index: -1;
+}
+.banner_text h1{
+font-size: 60px;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+}
+.banner_text #para{
+font-size: 16px;
+font-family: "Nunito", sans-serif;
+font-weight: 400;
+display: inline-block;
+margin-top: 10px;
+}
+.banner_text p{
+font-size: 16px;
+font-family: "Nunito", sans-serif;
+font-weight: 400;
+margin-top: 10px;
+}
+.banner_text .btn{
+    background: #FF5A3C;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+.banner_right i{
+    margin-left: 90%;
+    margin-top: 18%;
+    font-size: 25px;
+    background: #FF5A3C;
+    padding: 12px;
+    color: #fff;
+}
+
 /* Banner_Part End */
