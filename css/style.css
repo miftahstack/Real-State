@@ -12,10 +12,10 @@
 /* NavBar_Part Start */
 .navbar {
     position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
-    width: 100%;
-    z-index: 99;
+    z-index: 999;
 }
 
 
@@ -24,7 +24,7 @@
 
 .sticky_navbar {
     background: #ed0000;
-    z-index: 999;
+    z-index: 99;
     animation: AR 1s;
 }
 
@@ -47,6 +47,10 @@
 
 .navbar-nav i {
     margin-left: 10px;
+}
+.navbar-top{
+    background: #fff;
+    padding: 10px 0px;
 }
 
 /* NavBar_Part End */
