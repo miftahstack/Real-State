@@ -10,7 +10,7 @@
 
 
 /* NavBar_Part Start */
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -22,24 +22,31 @@
 /* Sticky Header */
 
 
-.sticky_navbar{
+.sticky_navbar {
     background: #ed0000;
     z-index: 999;
     animation: AR 1s;
+}
+
+@keyframes AR {
+    from {
+        top: -100px;
     }
-    @keyframes AR{
-    from{
-    top: -100px;
+
+    to {
+        top: 0;
     }
-    to{
-    top: 0;
-    }
-    }
-    
+}
+
 /* Sticky Header */
 
-.navbar-nav i{
-    margin-left: 20px;
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-nav i {
+    margin-left: 10px;
 }
 
 /* NavBar_Part End */
@@ -48,7 +55,7 @@
 
 /* Banner_Part Start */
 #banner_part {
-    padding: 1000px 0px;
+    padding: 200px 0px;
     width: 100%;
     background: #F2F6F7;
     position: relative;
